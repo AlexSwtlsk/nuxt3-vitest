@@ -4,10 +4,16 @@
     "dev": "nuxi dev",
     "build": "nuxi build",
     "start": "node .output/server/index.mjs",
-    "lintfix": "eslint --ignore-path .gitignore --ext .ts,.js,.vue . --fix"
+    "lintfix": "eslint --ignore-path .gitignore --ext .ts,.js,.vue . --fix",
+    "test": "vitest",
+    "test:coverage": "vitest run --coverage"
   },
   "devDependencies": {
-    "nuxt": "npm:nuxt3@latest"
+    "@vitejs/plugin-vue": "^2.3.1",
+    "@vue/test-utils": "^2.0.0-rc.21",
+    "jsdom": "^19.0.0",
+    "nuxt": "npm:nuxt3@latest",
+    "vitest": "^0.10.0"
   },
   "dependencies": {
     "@nuxtjs/eslint-config-typescript": "^9.0.0",
