@@ -6,11 +6,11 @@ const props = defineProps({
   },
 })
 
-const countMultipliction = computed(() => props.count * 4)
+const countMultiplication = computed(() => props.count * 4)
 </script>
 
 <template>
   <div>
-    {{ countMultipliction }}
+    {{ countMultiplication }}
   </div>
 </template>
