@@ -4,8 +4,10 @@ import { mount } from '@vue/test-utils'
 import TestMultiplication from './TestMultiplication.vue'
 
 describe('Test component', () => {
+  expect(TestMultiplication).toBeTruthy()
+
   const wrapper = mount(TestMultiplication, {
-    propsData: {
+    props: {
       count: 4,
     },
   })
