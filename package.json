@@ -13,6 +13,7 @@
     "@vue/test-utils": "^2.0.0-rc.21",
     "jsdom": "^19.0.0",
     "nuxt": "npm:nuxt3@latest",
+    "unplugin-auto-import": "^0.7.1",
     "vitest": "^0.10.0"
   },
   "dependencies": {
